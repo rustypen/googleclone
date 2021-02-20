@@ -1,0 +1,31 @@
+.login__page{
+  // text-align: center;
+  width: 100%;
+  padding: 15px;
+  max-width: 764px;
+  margin: 0 auto;
+  form{
+    label{
+      padding: 10px 0;
+      display: block;
+      input{
+        border: 2px solid black;
+        width: 100%;
+        padding: 5px 7px;
+        font-size: 1rem;
+      }
+    }
+    button{
+      background: black;
+      border: 0;
+      font-size: 1rem;
+      color: white; 
+      padding: 10px 40px;
+      margin: 10px 0; 
+    }
+  }
+
+  .hint{
+    margin-top: 20px;
+  }
+}
